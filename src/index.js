@@ -20,6 +20,7 @@ const routerPortefolio = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={routerPortefolio} />
+    {/* <RouterProvider router={routerPortefolio} /> */}
+    <App></App>
   </React.StrictMode>
 );
