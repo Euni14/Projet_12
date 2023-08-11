@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="test">
       test
-      {/*  <Header />
+      <Header />
       <Outlet />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

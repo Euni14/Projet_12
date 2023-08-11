@@ -7,11 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const routerPortefolio = createBrowserRouter([
   {
-    path: "/",
+    path: "/Projet_12",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/Projet_12",
         element: <Home />,
       },
     ],
@@ -20,7 +20,6 @@ const routerPortefolio = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <RouterProvider router={routerPortefolio} /> */}
-    <App></App>
+    <RouterProvider router={routerPortefolio} />
   </React.StrictMode>
 );
