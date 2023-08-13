@@ -1,0 +1,80 @@
+
+.myskills{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   
+   .myskills-header{
+       position: relative;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   .myskills-header h1{
+       position: relative;
+       font-size: 30px;
+       text-transform: uppercase;
+       margin:30px;    
+   }
+   .myskills-header hr{
+       position: relative;
+       width: 70px;
+       height: 4px;
+       border: none;
+       background-color: aqua;
+   }
+   
+   .myskills-content {
+       position: relative;
+       width: 60%;
+       padding: 20px;
+       margin: 20px; 
+       display: flex;
+       justify-content: space-between;
+       align-items:flex-start;
+       gap: 30px;
+       flex-wrap: wrap;
+       flex-direction: row;
+       text-align: center;
+       border: 2px solid #deeaee;
+       background-color: #deeaee;
+       box-shadow: 0px 0px 7px rgba(18,18,18,0.5);
+       border-radius:15px;
+       transition: transform .2s; 
+   }
+
+   .myskills-content:hover {
+    transform: scale(1.1); 
+  }
+   
+   .myskills-content img{
+       position: relative;
+       width: 100px;
+       height: 100px;
+       border-radius: 5px;
+       background: #eee;
+       border-radius: 5%;
+   }
+   
+  
+   
+   .item-to-left{
+       width: 50vw;
+       display: flex; 
+       justify-content:flex-end;
+       align-items: center;
+       flex-wrap: wrap;
+       gap:30px;
+       row-gap: 30px;   
+       align-content: center;
+       margin:auto;
+   }
+  

@@ -16,13 +16,13 @@ function Header() {
       <div className="headBandDetail">
         <nav>
           <a className="projets btn" href="#projets">
-            <span> Mes Réalisations</span>
+            <span>Mes Réalisations</span>
           </a>
           <a className="competences btn" href="#competences">
             <span>Mes Compétences</span>
           </a>
           <a className="Contact btn" href="#contact">
-            <span> Contactez-moi! </span>
+            <span>Contactez-moi!</span>
           </a>
         </nav>
         <LanguageSelector></LanguageSelector>

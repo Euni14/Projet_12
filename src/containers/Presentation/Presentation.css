@@ -5,6 +5,7 @@
     align-items: center ;
     margin: 10rem 0rem 10rem 0rem;
     gap:25px;
+    text-align: justify;
 }
 
 .presentationText {
@@ -30,6 +31,7 @@ font-size: 1.3rem;
         align-items: center ;
         margin: 10rem 0rem 10rem 0rem;
         gap:25px;
+        text-align: justify;
     }
 }
 

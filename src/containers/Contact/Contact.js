@@ -3,12 +3,12 @@ import photoProfil from "../../assets/image/photo-profil.jpg";
 
 function Contact() {
   return (
-    <section className="myskills">
-      <div className="myskills-header">
+    <section className="myContacts">
+      <div className="myContacts-header">
         <h1>Contact</h1>
         <hr />
       </div>
-      <div className="myskills-content">
+      <div className="myContacts-content">
         <div className="premice-contact">
           <p>
             Pour plus d'informations sur mes services, n'hésitez pas à me

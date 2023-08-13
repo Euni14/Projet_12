@@ -73,15 +73,6 @@ flex-wrap: wrap;
 .project .projectContent:hover .projetDetail {
     transform: translateY(-30px);
 }
-.architecte {
-    object-fit: none;
-    object-position: 0px 100px;
-}
-
-.argentBank {     
-    width: 450px;
-    height: 560px;
-}
 
 .project .projectContent .projetDetail .projectText {
     position: absolute;

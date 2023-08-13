@@ -5,6 +5,8 @@ import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { setLangAsync } from "./services/content/contentSlice";
 import { useSelector, useDispatch } from "react-redux";
+import Spinner from "./components/Spinner/Spinner";
+
 function App() {
   const contentstatus = useSelector((state) => state.content.status);
   const dispatch = useDispatch();
@@ -17,11 +19,11 @@ function App() {
   }, []);
 
   return contentstatus === "loading" ? (
-    <p>Loading...</p>
+    <Spinner></Spinner>
   ) : (
-    <div className="container">
+    <div>
       <Header />
-      <main>
+      <main className="container">
         <Outlet />
       </main>
       <Footer />

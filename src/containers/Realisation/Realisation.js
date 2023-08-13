@@ -6,9 +6,10 @@ import argentBank from "../../assets/image/argentBank.webp";
 function Realisation() {
   return (
     <>
-      <h2 className="" id="projets">
-        Mes réalisations
-      </h2>
+      <div className="myRealisations-header" id="projets">
+        <h1> Mes réalisations</h1>
+        <hr />
+      </div>
       <section className="realisations">
         <div className="project">
           <div className="projectContent">
@@ -33,9 +34,7 @@ function Realisation() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="project">
           <div className="projectContent">
             <div className="projetDetail">
               <img
@@ -56,9 +55,7 @@ function Realisation() {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="project">
           <div className="projectContent">
             <div className="projetDetail">
               <img

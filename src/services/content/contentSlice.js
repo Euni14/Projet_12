@@ -10,13 +10,15 @@ const initialState = {
 
 function fetchTranslations(lang) {
   return new Promise((resolve) => {
-    fetch(
-      (window.location.origin + langUrl)
-        .replace("/Projet_12/Projet_12/", "/Projet_12/")
-        .replace("{lang}", lang)
-    )
-      .then((response) => response.json())
-      .then((data) => resolve(data));
+    setTimeout(function () {
+      fetch(
+        (window.location.origin + langUrl)
+          .replace("/Projet_12/Projet_12/", "/Projet_12/")
+          .replace("{lang}", lang)
+      )
+        .then((response) => response.json())
+        .then((data) => resolve(data));
+    }, 1000);
   });
 }
 

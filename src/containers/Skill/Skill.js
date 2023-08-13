@@ -11,10 +11,11 @@ import seo from "../../assets/logo/seo.png";
 import nodepng from "../../assets/logo/node.png";
 import gitpng from "../../assets/logo/git.png";
 import vscode from "../../assets/logo/vscode.png";
+import figma from "../../assets/logo/figma.png";
 
 function Skill() {
   return (
-    <section className="myskills">
+    <section className="myskills" id="competences">
       <div className="myskills-header">
         <h1>Mes compétences</h1>
         <hr />
@@ -27,11 +28,11 @@ function Skill() {
         <img src={reduxpng} />
         <img src={notion} />
         <img src={sasspng} />
-        <img src={agile} />
         <img src={seo} />
         <img src={nodepng} />
         <img src={gitpng} />
         <img src={vscode} />
+        <img src={figma} />
       </div>
     </section>
   );
