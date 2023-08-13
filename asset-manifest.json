@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Projet_12/static/css/main.313ffaa1.css",
-    "main.js": "/Projet_12/static/js/main.ffdfa403.js",
+    "main.css": "/Projet_12/static/css/main.5ba58e60.css",
+    "main.js": "/Projet_12/static/js/main.a04057a1.js",
     "static/media/ohmyfood.webp": "/Projet_12/static/media/ohmyfood.7e093e4a59e6d862678f.webp",
     "static/media/sophie-bluel-colle.webp": "/Projet_12/static/media/sophie-bluel-colle.8af95c209cd546c0ed98.webp",
     "static/media/photo-profil.jpg": "/Projet_12/static/media/photo-profil.9d68d88d3aeb8aabb1ca.jpg",
     "static/media/argentBank.webp": "/Projet_12/static/media/argentBank.b7f3893cadea5e70c51c.webp",
     "index.html": "/Projet_12/index.html",
-    "main.313ffaa1.css.map": "/Projet_12/static/css/main.313ffaa1.css.map",
-    "main.ffdfa403.js.map": "/Projet_12/static/js/main.ffdfa403.js.map"
+    "main.5ba58e60.css.map": "/Projet_12/static/css/main.5ba58e60.css.map",
+    "main.a04057a1.js.map": "/Projet_12/static/js/main.a04057a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.313ffaa1.css",
-    "static/js/main.ffdfa403.js"
+    "static/css/main.5ba58e60.css",
+    "static/js/main.a04057a1.js"
   ]
 }
