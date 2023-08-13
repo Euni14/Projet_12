@@ -1,0 +1,35 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 10rem 0rem 10rem 0rem;
+    gap:25px;
+}
+
+.presentationText {
+font-size: 1.3rem;
+}
+.presentationText span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.profil img{
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+    .presentation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center ;
+        margin: 10rem 0rem 10rem 0rem;
+        gap:25px;
+    }
+}
+

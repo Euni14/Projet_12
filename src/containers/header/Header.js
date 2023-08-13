@@ -1,28 +1,33 @@
 import "./Header.css";
 import { LanguageSelector } from "../../components/LanguageSelector/LanguageSelector";
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { setLangAsync } from "../../services/content/contentSlice";
+import { useSelector } from "react-redux";
 
 function Header() {
   const { translations } = useSelector((state) => state.content);
-  const contentstatus = useSelector((state) => state.content.status);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    const asyncFn = async () => {
-      dispatch(setLangAsync());
-      console.log(translations);
-    };
-    asyncFn();
-  }, []);
+  return (
+    <section className="headBand">
+      <div className="headBandNav">
+        <a className="home" href="#home">
+          <h1> Eugénie M. </h1>
+          <p className="textHome"> DEVELOPPEUR / INTEGRATEUR FRONT-END</p>
+        </a>
+      </div>
 
-  return contentstatus === "loading" ? (
-    <p>Loading...</p>
-  ) : (
-    <div className="header">
-      HEADER {translations.un}
-      <LanguageSelector></LanguageSelector>
-    </div>
+      <div className="headBandDetail">
+        <nav>
+          <a className="projets btn" href="#projets">
+            <span> Mes Réalisations</span>
+          </a>
+          <a className="competences btn" href="#competences">
+            <span>Mes Compétences</span>
+          </a>
+          <a className="Contact btn" href="#contact">
+            <span> Contactez-moi! </span>
+          </a>
+        </nav>
+        <LanguageSelector></LanguageSelector>
+      </div>
+    </section>
   );
 }
 

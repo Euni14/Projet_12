@@ -1,0 +1,15 @@
+.language-option{
+position:relative;
+display: flex;
+padding: 20px 0px;
+margin: 7px;
+}
+
+@media only screen and (min-width: 600px) {
+    .language-option{
+    position:relative;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    }
+}

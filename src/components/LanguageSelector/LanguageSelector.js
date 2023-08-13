@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { setLangAsync } from "../../services/content/contentSlice";
+import "./LanguageSelector.css";
 
 export function LanguageSelector() {
   const lang = useSelector((state) => state.content.lang);
@@ -9,7 +10,7 @@ export function LanguageSelector() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="language-option">
       <select
         value={lang}
         onChange={(newLang) => dispatch(setLangAsync(newLang.target.value))}
