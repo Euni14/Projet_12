@@ -14,12 +14,12 @@ import vscode from "../../assets/logo/vscode.png";
 
 function Skill() {
   return (
-    <section class="myskills">
-      <div class="myskills-header">
+    <section className="myskills">
+      <div className="myskills-header">
         <h1>Mes compétences</h1>
         <hr />
       </div>
-      <div class="myskills-content">
+      <div className="myskills-content">
         <img src={js} alt="" />
         <img src={html} />
         <img src={css} />

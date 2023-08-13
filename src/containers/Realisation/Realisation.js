@@ -21,9 +21,8 @@ function Realisation() {
               <div className="projectText">
                 <div>
                   <h3>
-                    {" "}
                     Améliorez l'interface d'un site mobile avec des animations
-                    CSS{" "}
+                    CSS
                   </h3>
                   <p className="projectCompetence">
                     Intégrer une maquette en mobile-first <br />
@@ -70,11 +69,10 @@ function Realisation() {
               <div className="projectText">
                 <div>
                   <h3>
-                    {" "}
                     Implémentez le front-end d'une application bancaire avec
-                    React{" "}
+                    React
                   </h3>
-                  <p class="projectCompetence">
+                  <p className="projectCompetence">
                     Afficher les données du back end sur l'interface via des
                     appels API
                     <br />

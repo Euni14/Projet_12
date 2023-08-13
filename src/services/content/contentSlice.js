@@ -10,7 +10,7 @@ const initialState = {
 
 function fetchTranslations(lang) {
   return new Promise((resolve) => {
-    fetch(langUrl.replace("{lang}", lang))
+    fetch(window.location.origin + langUrl.replace("{lang}", lang))
       .then((response) => response.json())
       .then((data) => resolve(data));
   });

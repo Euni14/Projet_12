@@ -26,19 +26,19 @@ function Contact() {
         </div>
         <div className="social-link">
           <a href="#" target="_blank">
-            <i class="fa fa-twitter-square fa-4x"></i>
+            <i className="fa fa-twitter-square fa-4x"></i>
           </a>
           <a href="#" target="_blank">
-            <i class="fa fa-google-plus-square fa-4x"></i>
+            <i className="fa fa-google-plus-square fa-4x"></i>
           </a>
           <a href="#" target="_blank">
-            <i class="fa fa-linkedin-square fa-4x"></i>
+            <i className="fa fa-linkedin-square fa-4x"></i>
           </a>
           <a href="#" target="_blank">
-            <i class="fa fa-github fa-4x"></i>
+            <i className="fa fa-github fa-4x"></i>
           </a>
           <a href="#" target="_blank">
-            <i class="fa fa-instagram fa-4x"></i>
+            <i className="fa fa-instagram fa-4x"></i>
           </a>
         </div>
       </div>
