@@ -22,11 +22,13 @@
             "and learn new technologies. Available immediately."
         ]
     },
+    "voirplus": "see more",
     "realisation": [
         {
             "id": "ohmyfood",
             "imageSrc": "/Projet_12/assets/image/ohmyfood.webp",
             "title": "Improve the interface of a mobile site with CSS animations",
+            "url": "https://euni14.github.io/Projet_4/",
             "text": [
                 "Integrate a mobile-first model <br /> ",
                 "Version your project with Git and Github <br /> ",
@@ -37,6 +39,7 @@
             "id": "sophiebluel",
             "imageSrc": "/Projet_12/assets/image/sophie-bluel-colle.webp",
             "title": "Create a dynamic web page with JavaScript",
+            "url": "https://github.com/Euni14/Projet_6",
             "text": [
                 "Manipulate DOM elements with JavaScript <br />",
                 "Retrieve user data in JavaScript via",
@@ -48,6 +51,7 @@
             "id": "argentBank",
             "imageSrc": "/Projet_12/assets/image/argentBank.webp",
             "title": "Implement the front-end of a banking app with React",
+            "url": "https://github.com/Euni14/Projet_11",
             "text": [
                 "Display data from the back end on the interface via ",
                 "API calls ",
@@ -93,8 +97,8 @@
             "imageAlt": "logo seo"
         },
         {
-            "imageSrc": "/Projet_12/assets/logo/js.png",
-            "imageAlt": "logo js"
+            "imageSrc": "/Projet_12/assets/logo/agile.png",
+            "imageAlt": "logo agile"
         },
         {
             "imageSrc": "/Projet_12/assets/logo/node.png",
