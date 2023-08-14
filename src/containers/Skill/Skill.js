@@ -6,7 +6,6 @@ import reactpng from "../../assets/logo/react.png";
 import reduxpng from "../../assets/logo/redux.png";
 import notion from "../../assets/logo/notion.png";
 import sasspng from "../../assets/logo/sass.png";
-import agile from "../../assets/logo/agile.png";
 import seo from "../../assets/logo/seo.png";
 import nodepng from "../../assets/logo/node.png";
 import gitpng from "../../assets/logo/git.png";
@@ -17,22 +16,22 @@ function Skill() {
   return (
     <section className="myskills" id="competences">
       <div className="myskills-header">
-        <h1>Mes compétences</h1>
+        <h2>Mes compétences</h2>
         <hr />
       </div>
       <div className="myskills-content">
-        <img src={js} alt="" />
-        <img src={html} />
-        <img src={css} />
-        <img src={reactpng} />
-        <img src={reduxpng} />
-        <img src={notion} />
-        <img src={sasspng} />
-        <img src={seo} />
-        <img src={nodepng} />
-        <img src={gitpng} />
-        <img src={vscode} />
-        <img src={figma} />
+        <img src={js} alt="logo js" />
+        <img src={html} alt="logo html" />
+        <img src={css} alt="logo css" />
+        <img src={reactpng} alt="logo reactjs" />
+        <img src={reduxpng} alt="logo redux" />
+        <img src={notion} alt="logo notion" />
+        <img src={sasspng} alt="logo sass" />
+        <img src={seo} alt="logo seo" />
+        <img src={nodepng} alt="logo nodejs" />
+        <img src={gitpng} alt="logo git" />
+        <img src={vscode} alt="logo vscode" />
+        <img src={figma} alt="logo figma" />
       </div>
     </section>
   );

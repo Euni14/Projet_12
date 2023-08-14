@@ -16,7 +16,7 @@ flex-wrap: wrap;
     position: relative;
     width: 500px;
     height: 560px;
-    margin: 50px 20px 70px;
+    margin: 50px 100px 0px;
     object-fit: contain;
 
 }
@@ -104,21 +104,21 @@ margin-bottom: 1rem;
     flex-direction: column;
 }
 
-.myRealisations-header h1{
+.myRealisations-header h2{
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
-    margin:30px;    
+     
 }
 .myRealisations-header hr{
     position: relative;
     width: 70px;
     height: 4px;
     border: none;
-    background-color: aqua;
+    background-color: #1e9bff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
     .realisations{
         display: flex;
         flex-direction: row;

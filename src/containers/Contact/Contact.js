@@ -1,5 +1,4 @@
 import "./Contact.css";
-import photoProfil from "../../assets/image/photo-profil.jpg";
 
 function Contact() {
   return (

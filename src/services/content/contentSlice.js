@@ -42,11 +42,11 @@ export const contentSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(setLangAsync.pending, (state) => {
-      console.log("loaddddd");
+      console.log("load");
       state.status = "loading";
     });
     builder.addCase(setLangAsync.fulfilled, (state, action) => {
-      console.log("finnn");
+      console.log("success");
       console.log(action.payload);
       state.translations = action.payload;
       state.status = "idle";

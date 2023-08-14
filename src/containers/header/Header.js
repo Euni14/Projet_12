@@ -24,8 +24,8 @@ function Header() {
           <a className="Contact btn" href="#contact">
             <span>Contactez-moi!</span>
           </a>
+          <LanguageSelector></LanguageSelector>
         </nav>
-        <LanguageSelector></LanguageSelector>
       </div>
     </section>
   );

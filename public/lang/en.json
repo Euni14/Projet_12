@@ -1,4 +1,14 @@
 {
-    "un": "one",
-    "deux": "two"
+    "presentation": {
+        "text": [
+            "Greeting! <br /> My name is Eugénie <br /> I am passionate about",
+            "web development and graduate of a training at OpenClassroom.",
+            "<br />",
+            "I master HTML, CSS and JavaScript languages, React as well as",
+            "web development tools such as Git, visual studio code.",
+            "<br /> I am looking for a job as a web integrator within a company",
+            "dynamic and innovative, where I could implement my skills",
+            "and learn new technologies. Available immediately."
+        ]
+    }
 }

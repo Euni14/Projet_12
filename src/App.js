@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./containers/footer/Footer";
 import Header from "./containers/header/Header";
 import { Outlet } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { setLangAsync } from "./services/content/contentSlice";
 import { useSelector, useDispatch } from "react-redux";
 import Spinner from "./components/Spinner/Spinner";

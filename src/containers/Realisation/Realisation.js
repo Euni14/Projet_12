@@ -7,7 +7,7 @@ function Realisation() {
   return (
     <>
       <div className="myRealisations-header" id="projets">
-        <h1> Mes réalisations</h1>
+        <h2> Mes réalisations</h2>
         <hr />
       </div>
       <section className="realisations">

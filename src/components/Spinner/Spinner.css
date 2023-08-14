@@ -26,7 +26,7 @@
     height: 250px;
     border-left: 3px solid transparent;
     border-bottom: 3px solid transparent;
-    animation: loading 2s linear infinite;
+    animation: loading 1.5s linear infinite;
   }
   
   .spinner-circle:after {
@@ -38,7 +38,7 @@
     height: 250px;
     border-left: 3px solid transparent;
     border-bottom: 3px solid transparent;
-    animation: loading 2s ease infinite;
+    animation: loading 1.5s ease infinite;
     z-index: 10;
   }
   
