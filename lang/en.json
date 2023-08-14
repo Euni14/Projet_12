@@ -1,4 +1,119 @@
 {
-    "un": "one",
-    "deux": "two"
+    "header": {
+        "userName": "Eugénie M.",
+        "poste": "FRONT-END DEVELOPER / INTEGRATOR",
+        "menu": {
+            "realisation": "My Achievements",
+            "competences": "My Skills",
+            "contact": "Contact me!"
+        }
+    },
+    "presentation": {
+        "imageProfilSrc": "/Projet_12/assets/image/photo-profil.webp",
+        "imageProfilAlt": "photo de profil",
+        "text": [
+            "Greeting! <br /> My name is Eugénie <br /> I am passionate about",
+            "web development and graduate of a training at OpenClassroom.",
+            "<br />",
+            "I master HTML, CSS and JavaScript languages, React as well as",
+            "web development tools such as Git, visual studio code.",
+            "<br /> I am looking for a job as a web integrator within a company",
+            "dynamic and innovative, where I could implement my skills",
+            "and learn new technologies. Available immediately."
+        ]
+    },
+    "realisation": [
+        {
+            "id": "ohmyfood",
+            "imageSrc": "/Projet_12/assets/image/ohmyfood.webp",
+            "title": "Improve the interface of a mobile site with CSS animations",
+            "text": [
+                "Integrate a mobile-first model <br /> ",
+                "Version your project with Git and Github <br /> ",
+                "Implement CSS animations "
+            ]
+        },
+        {
+            "id": "sophiebluel",
+            "imageSrc": "/Projet_12/assets/image/sophie-bluel-colle.webp",
+            "title": "Create a dynamic web page with JavaScript",
+            "text": [
+                "Manipulate DOM elements with JavaScript <br />",
+                "Retrieve user data in JavaScript via",
+                "forms <br />",
+                "Manage user events with JavaScript"
+            ]
+        },
+        {
+            "id": "argentBank",
+            "imageSrc": "/Projet_12/assets/image/argentBank.webp",
+            "title": "Implement the front-end of a banking app with React",
+            "text": [
+                "Display data from the back end on the interface via ",
+                "API calls ",
+                "<br /> ",
+                "Configure API routes for client communication /",
+                "server <br />",
+                "Implement data management with Redux to ensure ",
+                "the functioning of the front."
+            ]
+        }
+    ],
+    "competence": [
+        {
+            "imageSrc": "/Projet_12/assets/logo/js.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/html.png",
+            "imageAlt": "logo html"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/css.png",
+            "imageAlt": "logo css"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/react.png",
+            "imageAlt": "logo reactjs"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/redux.png",
+            "imageAlt": "logo redux"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/notion.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/sass.png",
+            "imageAlt": "logo sass"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/seo.png",
+            "imageAlt": "logo seo"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/js.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/node.png",
+            "imageAlt": "logo node"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/git.png",
+            "imageAlt": "logo git"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/vscode.png",
+            "imageAlt": "logo vscode"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/figma.png",
+            "imageAlt": "logo figma"
+        }
+    ],
+    "contact": {
+        "text": "For more information about my services, do not hesitate to contact me and I will answer you within 24 hours."
+    }
 }

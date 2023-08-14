@@ -9,20 +9,111 @@
         }
     },
     "presentation": {
+        "imageProfilSrc": "/Projet_12/assets/image/photo-profil.webp",
+        "imageProfilAlt": "photo de profil",
         "text": [
-            "Salutation! <br /> Je m'appelle Eugénie <br /> Je m'appelle Eugenie et",
-            "Je suis passionné par la création de des sites web responsives,",
-            "accessibles et esthétiques, en respectant les bonnes pratiques du web.",
-            "Effectivement, je suis un développeur / intégrateur web diplômé d'une",
-            "formation de 9 mois chez OpenClassroom. Je maîtrise les langages HTML,",
-            "CSS et JavaScript, React ainsi que les outils de développement web tels",
-            "que Git, visual studio code. Je suis à la recherche d'un poste",
-            "d'intégrateur web au sein d'une entreprise dynamique et innovante, où je",
-            "pourrais mettre en œuvre mes compétences et apprendre de nouvelles",
-            "technologies. Je suis disponible immédiatement et je peux vous envoyer",
-            "mon portfolio sur demande."
+            "Salutation! <br /> Je m'appelle Eugénie <br/> Je suis passionnée par le",
+            "développement web et diplômée d'une formation chez OpenClassroom.",
+            "<br/>",
+            "Je maîtrise les langages HTML, CSS et JavaScript, React ainsi que les",
+            " outils de développement web tels que Git, visual studio code.",
+            "<br /> Je recherche un poste d'intégrateur web au sein d'une entreprise",
+            " dynamique et innovante, où je pourrais mettre en œuvre mes compétences",
+            " et apprendre de nouvelles technologies. Disponible dans l'immédiat."
         ]
     },
-    "un": "un",
-    "deux": "deux"
+    "realisation": [
+        {
+            "id": "ohmyfood",
+            "imageSrc": "/Projet_12/assets/image/ohmyfood.webp",
+            "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
+            "text": [
+                "Intégrer une maquette en mobile-first <br /> ",
+                "Versionner son projet avec Git et Github <br /> ",
+                "Mettre en œuvre des animations CSS "
+            ]
+        },
+        {
+            "id": "sophiebluel",
+            "imageSrc": "/Projet_12/assets/image/sophie-bluel-colle.webp",
+            "title": "Créez une page web dynamique avec JavaScript",
+            "text": [
+                "Manipuler les éléments du DOM avec JavaScript <br />",
+                "Récupérer les données utilisateurs dans le JavaScript via",
+                "des formulaires <br />",
+                "Gérer les événements utilisateurs avec JavaScript"
+            ]
+        },
+        {
+            "id": "argentBank",
+            "imageSrc": "/Projet_12/assets/image/argentBank.webp",
+            "title": "Implémentez le front-end d'une application bancaire avec React",
+            "text": [
+                "Afficher les données du back end sur l'interface via des ",
+                "appels API ",
+                "<br /> ",
+                "Configurer des routes API pour la communication client /",
+                "serveur <br />",
+                "Implémenter la gestion des données avec Redux pour assurer",
+                "le fonctionnement du front."
+            ]
+        }
+    ],
+    "competence": [
+        {
+            "imageSrc": "/Projet_12/assets/logo/js.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/html.png",
+            "imageAlt": "logo html"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/css.png",
+            "imageAlt": "logo css"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/react.png",
+            "imageAlt": "logo reactjs"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/redux.png",
+            "imageAlt": "logo redux"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/notion.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/sass.png",
+            "imageAlt": "logo sass"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/seo.png",
+            "imageAlt": "logo seo"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/js.png",
+            "imageAlt": "logo js"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/node.png",
+            "imageAlt": "logo node"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/git.png",
+            "imageAlt": "logo git"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/vscode.png",
+            "imageAlt": "logo vscode"
+        },
+        {
+            "imageSrc": "/Projet_12/assets/logo/figma.png",
+            "imageAlt": "logo figma"
+        }
+    ],
+    "contact": {
+        "text": "Pour plus d'informations sur mes services, n'hésitez pas à me contacter et je vous répondrai dans les 24 heures."
+    }
 }
