@@ -16,7 +16,7 @@ function Contact() {
             <i className="fa fa-map-marker"></i> Dammarie Les Lys,77190 FR
           </p>
           <p>
-            <i className="fa fa-phone"></i> +XX XX XX XX XX XX
+            <i className="fa fa-phone"></i> +01 02 03 04 05 06
           </p>
           <p>
             <i className="fa fa-envelope-o"></i> admin@euni14.com
@@ -32,7 +32,7 @@ function Contact() {
           <a href="#" target="_blank">
             <i className="fa fa-linkedin-square fa-4x"></i>
           </a>
-          <a href="#" target="_blank">
+          <a href="https://github.com/Euni14" target="_blank">
             <i className="fa fa-github fa-4x"></i>
           </a>
           <a href="#" target="_blank">

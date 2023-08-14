@@ -11,7 +11,7 @@ function Skill() {
       </div>
       <div className="myskills-content">
         {translations?.competence?.map((skill) => (
-          <img src={skill.imageSrc} alt={skill.imageAlt} />
+          <img src={skill.imageSrc} alt={skill.imageAlt} key={skill.imageAlt} />
         ))}
       </div>
     </section>

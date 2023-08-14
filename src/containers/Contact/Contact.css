@@ -81,5 +81,19 @@
    flex-wrap: wrap;
    align-items: center;
    justify-content:center;
-   gap:30px;
+   gap:15px;
    }
+   .social-link .fa{
+   color: black;
+   font-size: 25px;
+   }
+
+   @media only screen and (min-width: 700px) {.social-link{
+   
+    gap:20px;
+    }
+    .social-link .fa{
+   
+    font-size: 40px;
+    }
+   } 

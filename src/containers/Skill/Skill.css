@@ -7,6 +7,7 @@
     align-items:center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 5rem;
     
    }
    
@@ -22,7 +23,6 @@
    .myskills-header h2{
        position: relative;
        font-size: 30px;
-     /*  text-transform: uppercase;*/
        margin:30px;    
    }
    .myskills-header hr{
@@ -35,10 +35,9 @@
    
    .myskills-content {
        position: relative;
-       width: 60%;
-       padding: 20px;
+       width: 80%;
+       padding: 50px;
        margin: 20px;
-       margin-top: 5rem; 
        display: flex;
        justify-content: space-between;
        align-items:flex-start;
@@ -78,11 +77,15 @@
        margin: auto;
    }
 
-   @media only screen and (min-width: 700px) {
-    .myskills {
-        
-        margin-top: 10rem;
-    }
-}
 
+   @media only screen and (min-width: 700px) {
+    .myskills-content {
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        padding: 4rem;
+        gap: 4rem;
+        width: 90%;
+    }
+    
+}
   

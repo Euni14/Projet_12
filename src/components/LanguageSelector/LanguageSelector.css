@@ -4,6 +4,12 @@ flex-direction: row;
 align-items: baseline;
 padding: 20px 0px;
 }
+select {
+    background-color:  #a2b9bc;
+    color:#27484d;
+    border: 0;
+    padding: 0.1rem;
+}
 
 @media only screen and (min-width: 700px) {
     .language-option{
@@ -14,11 +20,5 @@ padding: 20px 0px;
     margin: 1.2rem 0.5rem 0rem 0rem;
     
     
-    }
-    select {
-        background-color:  #a2b9bc;
-        color:#27484d;
-        border: 0;
-        padding: 0.1rem;
     }
 }
