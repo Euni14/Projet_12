@@ -19,10 +19,10 @@
        flex-direction: column;
    }
    
-   .myskills-header h1{
+   .myskills-header h2{
        position: relative;
        font-size: 30px;
-       text-transform: uppercase;
+     /*  text-transform: uppercase;*/
        margin:30px;    
    }
    .myskills-header hr{
@@ -37,7 +37,8 @@
        position: relative;
        width: 60%;
        padding: 20px;
-       margin: 20px; 
+       margin: 20px;
+       margin-top: 5rem; 
        display: flex;
        justify-content: space-between;
        align-items:flex-start;

@@ -1,18 +1,17 @@
 import "./Contact.css";
+import { useSelector } from "react-redux";
 
 function Contact() {
+  const { translations } = useSelector((state) => state.content);
   return (
     <section className="myContacts">
       <div className="myContacts-header">
-        <h1>Contact</h1>
+        <h2>{translations?.header?.menu?.contact}</h2>
         <hr />
       </div>
       <div className="myContacts-content">
         <div className="premice-contact">
-          <p>
-            Pour plus d'informations sur mes services, n'hésitez pas à me
-            contacter et je vous répondrai dans les 24 heures.
-          </p>
+          <p>{translations?.contact?.text}</p>
           <p>
             <i className="fa fa-map-marker"></i> Dammarie Les Lys,77190 FR
           </p>

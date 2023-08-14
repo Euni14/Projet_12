@@ -2,12 +2,14 @@ import "./Realisation.css";
 import ohmyfood from "../../assets/image/ohmyfood.webp";
 import sophieBluel from "../../assets/image/sophie-bluel-colle.webp";
 import argentBank from "../../assets/image/argentBank.webp";
+import { useSelector } from "react-redux";
 
 function Realisation() {
+  const { translations } = useSelector((state) => state.content);
   return (
     <>
       <div className="myRealisations-header" id="projets">
-        <h2> Mes réalisations</h2>
+        <h2>{translations?.header?.menu?.realisation}</h2>
         <hr />
       </div>
       <section className="realisations">
