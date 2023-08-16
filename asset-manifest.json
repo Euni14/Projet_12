@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Projet_12/static/css/main.7b500b29.css",
-    "main.js": "/Projet_12/static/js/main.9a6b5270.js",
+    "main.css": "/Projet_12/static/css/main.eacda643.css",
+    "main.js": "/Projet_12/static/js/main.e9af2ddd.js",
     "static/media/ohmyfood.webp": "/Projet_12/static/media/ohmyfood.7e093e4a59e6d862678f.webp",
     "static/media/sophie-bluel-colle.webp": "/Projet_12/static/media/sophie-bluel-colle.8af95c209cd546c0ed98.webp",
     "static/media/argentBank.webp": "/Projet_12/static/media/argentBank.46d5504fb4e2278a3dea.webp",
     "static/media/photo-profil.webp": "/Projet_12/static/media/photo-profil.9911152cb89a41b03a98.webp",
     "index.html": "/Projet_12/index.html",
-    "main.7b500b29.css.map": "/Projet_12/static/css/main.7b500b29.css.map",
-    "main.9a6b5270.js.map": "/Projet_12/static/js/main.9a6b5270.js.map"
+    "main.eacda643.css.map": "/Projet_12/static/css/main.eacda643.css.map",
+    "main.e9af2ddd.js.map": "/Projet_12/static/js/main.e9af2ddd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b500b29.css",
-    "static/js/main.9a6b5270.js"
+    "static/css/main.eacda643.css",
+    "static/js/main.e9af2ddd.js"
   ]
 }

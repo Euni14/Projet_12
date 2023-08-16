@@ -12,8 +12,8 @@
         "imageProfilSrc": "/Projet_12/assets/image/photo-profil.webp",
         "imageProfilAlt": "photo de profil",
         "text": [
-            "Greeting! <br /> My name is Eugénie <br /> I am passionate about",
-            "web development and graduate of a training at OpenClassroom.",
+            "Greeting! <br /> My name is Eugénie <br /> I am passionate about ",
+            "web development and graduate of a training at OpenClassrooms.",
             "<br />",
             "I master HTML, CSS and JavaScript languages, React as well as",
             "web development tools such as Git, visual studio code.",

@@ -12,8 +12,8 @@
         "imageProfilSrc": "/Projet_12/assets/image/photo-profil.webp",
         "imageProfilAlt": "photo de profil",
         "text": [
-            "Salutation! <br /> Je m'appelle Eugénie <br/> Je suis passionnée par le",
-            "développement web et diplômée d'une formation chez OpenClassroom.",
+            "Salutation! <br /> Je m'appelle Eugénie <br/> Je suis passionnée par le ",
+            "développement web et diplômée d'une formation chez OpenClassrooms.",
             "<br/>",
             "Je maîtrise les langages HTML, CSS et JavaScript, React ainsi que les",
             " outils de développement web tels que Git, visual studio code.",
