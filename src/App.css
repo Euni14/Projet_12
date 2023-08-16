@@ -19,4 +19,5 @@ body {
   width: 95%;
   margin: auto;
   min-width: 470px;
+  overflow-x: hidden;
 }

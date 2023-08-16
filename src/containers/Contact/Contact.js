@@ -13,30 +13,15 @@ function Contact() {
         <div className="premice-contact">
           <p>{translations?.contact?.text}</p>
           <p>
-            <i className="fa fa-map-marker"></i> Dammarie Les Lys,77190 FR
-          </p>
-          <p>
-            <i className="fa fa-phone"></i> +01 02 03 04 05 06
+            <i className="fa fa-map-marker"></i> Ile de France, FR
           </p>
           <p>
             <i className="fa fa-envelope-o"></i> admin@euni14.com
           </p>
         </div>
         <div className="social-link">
-          <a href="#" target="_blank">
-            <i className="fa fa-twitter-square fa-4x"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i className="fa fa-google-plus-square fa-4x"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i className="fa fa-linkedin-square fa-4x"></i>
-          </a>
           <a href="https://github.com/Euni14" target="_blank">
             <i className="fa fa-github fa-4x"></i>
-          </a>
-          <a href="#" target="_blank">
-            <i className="fa fa-instagram fa-4x"></i>
           </a>
         </div>
       </div>

@@ -75,7 +75,7 @@ a span {
     z-index: 1;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 852px) {
     
   .headBand {
     display: flex;

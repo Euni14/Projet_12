@@ -21,7 +21,7 @@
     content: '';
     position: absolute;
     border-radius: 50%;
-    border: 3px dashed blue;
+    border: 3px dashed #27484d;
     width: 250px;
     height: 250px;
     border-left: 3px solid transparent;
@@ -33,7 +33,7 @@
     content: '';
     position: absolute;
     border-radius: 50%;
-    border: 3px dashed violet;
+    border: 3px dashed #a2b9bc;
     width: 250px;
     height: 250px;
     border-left: 3px solid transparent;
